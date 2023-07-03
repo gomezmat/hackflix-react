@@ -1,1 +1,1 @@
-# hackflix-react
+# Hackflix
