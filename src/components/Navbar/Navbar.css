@@ -1,0 +1,21 @@
+.home-link {
+  color: #ffffff;
+}
+
+.home-link:hover {
+  color: #b20000;
+  text-decoration: underline;
+}
+
+#hackflix {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.navbar {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#links-navbar a {
+  margin-right: 20px;
+}

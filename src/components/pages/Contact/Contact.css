@@ -1,0 +1,30 @@
+.infoContact {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#profilePic {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.links-contact img {
+  height: 50px;
+  width: 50px;
+}
+
+.react-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.span-react {
+  color: #61dafb;
+}

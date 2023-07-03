@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  color: #ffffff;
+}
+
+#home-link {
+  color: #ffffff;
+}
+
+#home-link:hover {
+  color: #b20000;
+  text-decoration: underline;
+}
+
+#hackflix {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.carousel-title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.carousel-title-div h3 {
+  margin: 0;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.carousel1,
+.carousel2,
+.carousel3,
+.carousel4 {
+  height: 600px;
+  width: 100%;
+  color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://wallpaperaccess.com/full/802564.jpg");
+  background-position: center 10%;
+}
+
+.carousel2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images4.alphacoders.com/131/1314206.jpeg");
+  background-position: center 5%;
+}
+
+.carousel3 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images2.alphacoders.com/130/1306782.png");
+  background-position: center 75%;
+}
+
+.carousel4 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images.hdqwalls.com/wallpapers/joker-4k2020-ot.jpg");
+  background-position: center 27%;
+}
+
+.slick-active button {
+  background-color: #b20000 !important;
+}
+
+.top-movies {
+  background-color: #b20000;
+  max-width: 150px;
+  padding: 5px;
+}

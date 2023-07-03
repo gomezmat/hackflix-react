@@ -1,0 +1,20 @@
+#about-us-title {
+  font-style: italic;
+  font-size: 4rem;
+}
+
+#span-about-us {
+  display: block;
+}
+
+.card-box-shadow {
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hover-card {
+  transition: transform 0.3s;
+}
+
+.hover-card:hover {
+  transform: translateY(-10px);
+}
